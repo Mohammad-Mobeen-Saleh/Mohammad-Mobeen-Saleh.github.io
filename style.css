@@ -1438,6 +1438,19 @@ footer a:hover {
 
     }
 
+    footer span,
+    footer a {
+
+        display: block;
+
+    }
+
+    footer a {
+
+        margin-top: 6px;
+
+    }
+
 
     .grade-table-heading {
 
