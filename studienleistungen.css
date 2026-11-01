@@ -324,7 +324,9 @@
 
     .results-hero {
 
-        padding: 70px 0 68px;
+        min-height: auto;
+
+        padding: 54px 0 38px;
 
     }
 
@@ -347,7 +349,7 @@
 
     .semester-section {
 
-        padding: 54px 0 80px;
+        padding: 36px 0 80px;
 
     }
 
