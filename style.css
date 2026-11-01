@@ -1304,14 +1304,30 @@ footer a:hover {
 
         display: block;
 
-        padding: 78px 0;
+        padding: 62px 0;
 
     }
 
 
     .section-number {
 
-        margin-bottom: 34px;
+        margin-bottom: 24px;
+
+    }
+
+
+    h2 {
+
+        margin-bottom: 20px;
+
+        font-size: clamp(2.2rem, 11vw, 3.5rem);
+
+    }
+
+
+    .section-intro {
+
+        margin-bottom: 28px;
 
     }
 
@@ -1329,7 +1345,22 @@ footer a:hover {
 
     .career-block + .career-block {
 
-        margin-top: 58px;
+        margin-top: 46px;
+
+    }
+
+
+    .subsection-label {
+
+        margin-bottom: 16px;
+
+    }
+
+
+    .career-entry,
+    .education-entry {
+
+        padding: 22px 0;
 
     }
 
@@ -1350,6 +1381,24 @@ footer a:hover {
     .certificate-card {
 
         min-height: auto;
+
+        padding: 22px;
+
+    }
+
+
+    .topic-row {
+
+        gap: 8px;
+
+        padding: 22px 0;
+
+    }
+
+
+    .topic-row h3 {
+
+        font-size: 1.05rem;
 
     }
 
