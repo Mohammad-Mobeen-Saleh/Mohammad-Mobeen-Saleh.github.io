@@ -389,7 +389,7 @@ h2 {
 
 
 .career-content > h2 {
-    margin-bottom: 52px;
+    margin-bottom: 28px;
 }
 
 
@@ -572,23 +572,10 @@ h2 {
 }
 
 
-.current-card > span,
-.skill-card > span,
-.certificate-icon {
-
-    color: var(--coral);
-
-    font-family: Consolas, monospace;
-
-    font-size: .85rem;
-
-}
-
-
 .current-card h3,
 .skill-card h3 {
 
-    margin: 46px 0 14px;
+    margin: 0 0 14px;
 
     font-size: 1.3rem;
 
@@ -629,19 +616,6 @@ h2 {
     border-top: 4px solid var(--teal);
 
     background: var(--paper);
-
-}
-
-
-.project-number {
-
-    margin-bottom: 46px;
-
-    color: var(--coral);
-
-    font-family: Consolas, monospace;
-
-    font-size: .85rem;
 
 }
 
@@ -768,24 +742,7 @@ h2 {
 
 .topic-row > div {
 
-    display: grid;
-
-    grid-template-columns: 42px 1fr;
-
-    align-items: start;
-
-    gap: 10px;
-
-}
-
-
-.topic-row span {
-
-    color: var(--coral);
-
-    font-family: Consolas, monospace;
-
-    font-size: .82rem;
+    display: block;
 
 }
 
@@ -1096,16 +1053,6 @@ h2 {
 }
 
 
-.certificate-icon {
-
-    display: block;
-
-    margin-bottom: 52px;
-
-}
-
-
-
 /* KONTAKT */
 
 .contact-section {
@@ -1403,22 +1350,6 @@ footer a:hover {
     .certificate-card {
 
         min-height: auto;
-
-    }
-
-
-    .project-number,
-    .certificate-icon {
-
-        margin-bottom: 34px;
-
-    }
-
-
-    .current-card h3,
-    .skill-card h3 {
-
-        margin-top: 34px;
 
     }
 
