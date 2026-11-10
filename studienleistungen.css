@@ -166,6 +166,7 @@
 }
 
 
+
 /* MODULLISTE */
 
 .results-list {
@@ -179,7 +180,7 @@
 
     display: grid;
 
-    grid-template-columns: minmax(0, 1fr) 92px;
+    grid-template-columns: minmax(0, 1fr) 120px;
 
     align-items: stretch;
 
@@ -257,7 +258,7 @@
 
     align-items: center;
 
-    justify-content: flex-end;
+    justify-content: center;
 
     padding-left: 20px;
 
@@ -272,6 +273,24 @@
     font-weight: 400;
 
     line-height: 1;
+
+}
+
+
+
+/* LAUFENDER STATUS */
+
+.result-status {
+
+    color: var(--ink);
+
+    font-family: "Manrope", "Segoe UI", sans-serif;
+
+    font-size: 1.05rem;
+
+    font-weight: 700;
+
+    letter-spacing: .01em;
 
 }
 
@@ -370,7 +389,7 @@
 
     .result-row {
 
-        grid-template-columns: minmax(0, 1fr) 72px;
+        grid-template-columns: minmax(0, 1fr) 92px;
 
         min-height: 78px;
 
@@ -400,5 +419,6 @@
         font-size: 1.9rem;
 
     }
+
 
 }
